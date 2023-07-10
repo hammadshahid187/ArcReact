@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ArcReact/static/css/main.9067f1ff.css",
-    "main.js": "/ArcReact/static/js/main.9d4d037f.js",
+    "main.css": "/ArcReact/static/css/main.b77642a3.css",
+    "main.js": "/ArcReact/static/js/main.2637a4b2.js",
     "static/js/787.e8f4b209.chunk.js": "/ArcReact/static/js/787.e8f4b209.chunk.js",
     "static/media/star.svg": "/ArcReact/static/media/star.b9f98035997d2b8f77609ab0d766bd70.svg",
     "static/media/lightLogo.svg": "/ArcReact/static/media/lightLogo.f5fa88f992a52927b77d5a87d4c730a2.svg",
@@ -21,13 +21,14 @@
     "static/media/modes.svg": "/ArcReact/static/media/modes.bd76a47ccf82c3f1618f460117a30abd.svg",
     "static/media/BookIcon.svg": "/ArcReact/static/media/BookIcon.98da7702bde2580331e3bbc38c846641.svg",
     "static/media/Article.svg": "/ArcReact/static/media/Article.a4d23c1c232712b361a9357a15dfebc5.svg",
+    "static/media/menubtn.svg": "/ArcReact/static/media/menubtn.88c7dc56a36f946c0013eddd5d3a07f7.svg",
     "static/media/user.svg": "/ArcReact/static/media/user.c5a4d74388dcedcb77e41da16a0257ee.svg",
-    "main.9067f1ff.css.map": "/ArcReact/static/css/main.9067f1ff.css.map",
-    "main.9d4d037f.js.map": "/ArcReact/static/js/main.9d4d037f.js.map",
+    "main.b77642a3.css.map": "/ArcReact/static/css/main.b77642a3.css.map",
+    "main.2637a4b2.js.map": "/ArcReact/static/js/main.2637a4b2.js.map",
     "787.e8f4b209.chunk.js.map": "/ArcReact/static/js/787.e8f4b209.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9067f1ff.css",
-    "static/js/main.9d4d037f.js"
+    "static/css/main.b77642a3.css",
+    "static/js/main.2637a4b2.js"
   ]
 }

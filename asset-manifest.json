@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ArcReact/static/css/main.b2d54c95.css",
-    "main.js": "/ArcReact/static/js/main.c923660c.js",
+    "main.css": "/ArcReact/static/css/main.d69f8447.css",
+    "main.js": "/ArcReact/static/js/main.83d32062.js",
     "static/js/787.e8f4b209.chunk.js": "/ArcReact/static/js/787.e8f4b209.chunk.js",
     "static/media/star.svg": "/ArcReact/static/media/star.b9f98035997d2b8f77609ab0d766bd70.svg",
     "static/media/lightLogo.svg": "/ArcReact/static/media/lightLogo.f5fa88f992a52927b77d5a87d4c730a2.svg",
@@ -23,12 +23,12 @@
     "static/media/Article.svg": "/ArcReact/static/media/Article.a4d23c1c232712b361a9357a15dfebc5.svg",
     "static/media/menubtn.svg": "/ArcReact/static/media/menubtn.88c7dc56a36f946c0013eddd5d3a07f7.svg",
     "static/media/user.svg": "/ArcReact/static/media/user.c5a4d74388dcedcb77e41da16a0257ee.svg",
-    "main.b2d54c95.css.map": "/ArcReact/static/css/main.b2d54c95.css.map",
-    "main.c923660c.js.map": "/ArcReact/static/js/main.c923660c.js.map",
+    "main.d69f8447.css.map": "/ArcReact/static/css/main.d69f8447.css.map",
+    "main.83d32062.js.map": "/ArcReact/static/js/main.83d32062.js.map",
     "787.e8f4b209.chunk.js.map": "/ArcReact/static/js/787.e8f4b209.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2d54c95.css",
-    "static/js/main.c923660c.js"
+    "static/css/main.d69f8447.css",
+    "static/js/main.83d32062.js"
   ]
 }

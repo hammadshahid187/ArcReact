@@ -1,0 +1,21 @@
+@media only screen and (min-width: 425px){
+    .eventModel .modal-lg, .modal-xl {
+        max-width: 68% !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+	.eventModel .modal-lg,.eventModel .modal-xl {
+		max-width: 100%!important;
+	}
+    .eventModel .modal-dialog-centered{
+		margin: 0px;
+		min-height: 100%!important;
+	}
+	.eventModel .modal-content{
+		height: 89%;
+		border-radius: 0px!important;
+		position: absolute;
+		bottom: 0px;
+	}
+}

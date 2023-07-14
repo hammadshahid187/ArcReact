@@ -1,0 +1,53 @@
+.sub-box input{
+    outline: none;
+    border: 1px solid #FF413C;
+    color: #172B85;
+    height: 42px;
+    border-radius: 4px 0px 0px 4px;
+}
+.sub-box button{
+    background-color: #FF413C;
+    height: 42px;
+    border: 1px solid #FF413C;
+    border-radius: 0px 4px 4px 0px;
+    color: #fff;
+}
+.footer-logo a{
+    font-size: 22px!important;
+}
+.footer-logo img{
+    width: 130px;
+    vertical-align: middle;
+}
+.footer-img img{
+    width: 100px;
+}
+.modal-body{
+    padding: 0px;
+    padding-top: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+.rigthBarBtn{
+    position: fixed;
+    left: -39px;
+    top: 212px;
+    width: auto;
+    padding: 0px;
+    transform: translateX(0%);
+    width: auto;
+    transition: 1s;
+}
+.rigthBaropen{
+    transform: translateX(-100%);
+    width: 49.5%;
+}
+.modelRigth{
+    background-color: #fff;
+    position: fixed;
+    width: 90%;
+    height: 100%;
+    transform: translateX(100%); 
+    transition: 1.000001s;
+    right: 0px;
+}}

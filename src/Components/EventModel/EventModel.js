@@ -169,7 +169,7 @@ export const EventModel = () => {
             </div>
         </div>
         <div className='col-lg-4 col-md-4 col-12'>
-            <div className='bg-white box-shadow p-lg-3 rounded-3'>
+            <div className='bg-white box-shadow p-3 rounded-3 mt-lg-0 mt-4'>
                 <h5 className='f-18 border-bottom pb-3'><img src={eventIcon} alt='' className='me-2' />Event’s market impact:</h5>
                 <h4 className='f-26 text-center mt-3'>Medium Impact</h4>
                 <p className='f-15 text-secondary mt-3'>While the products announced by Samsung - a leading player in the tech industry - are significant and potentially game-changing, they are also somewhat expected. The new versions of the Z Fold and Z Flip, the Galaxy Watch, and the Galaxy Buds represent incremental upgrades rather than entirely new products or market entries.</p>

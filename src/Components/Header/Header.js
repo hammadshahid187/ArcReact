@@ -2,11 +2,13 @@ import React, { useState } from 'react'
 import logo from '../../img/lightLogo.svg'
 import logoTwo from '../../img/lightLogo.svg'
 import userImg from '../../img/user.svg'
+import "./Header.css"
 
 export const Header = () => {
   const [nav,setNav]=useState("0");
   const [chatbox,setchatbox]=useState("0");
   const [newChat,setNewChat]=useState("0");
+  const [tradetag,setTradetag]=useState("0");
   return (
     <section id="navbar" className="bg-white">
       <div className="d-lg-none d-md-none d-flex w-100 py-4 px-3">
@@ -78,12 +80,17 @@ export const Header = () => {
             <div className="ms-67 my-lg-auto my-md-auto my-3 me-0 px-3 d-lg-flex d-md-none ps-0 d-block col order-lg-1 order-ms-1 order-2 justify-content-lg-end">
               <h5 className="mb-0 text-primary">Focus:</h5>
             </div>
-            <div className="d-lg-flex d-md-none	d-block w-100 col order-lg-2 order-ms-2 order-5 market-btn">
+            <div className="d-lg-flex d-md-none	d-block w-100 col order-lg-2 order-ms-2 order-5 market-btn position-relative">
               <button className="btn btn-primary border-0 bg-primary px-3 ms-0">Market</button>
               <button className="btn btn-primary border-0 bg-primary px-3">AMZN</button>
               <button className="btn btn-primary border-0 bg-primary px-3">TMUS</button>
               <button className="btn btn-primary border-0 bg-primary px-3">SBUX</button>
-              <button className="btn add-btn all-center my-lg-auto my-md-auto my-3"><i className="fa-solid fa-plus"></i></button>
+              <button className="btn add-btn all-center my-lg-auto my-md-auto my-3" onClick={()=>setTradetag("1")}><i className="fa-solid fa-plus"></i></button>
+              <div className={`tradetags ${tradetag==1?"":"d-none"}`}>
+                <div className='tradetag-search'>
+                  <input type='text' placeholder='Search' alt='' />
+                </div>
+              </div>
             </div>
 
             <div className="my-auto d-lg-flex d-md-flex d-flex justify-content-end col order-lg-3 order-ms-3 order-1 profile-box-outer">

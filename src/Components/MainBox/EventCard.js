@@ -12,11 +12,6 @@ export const EventCard = () => {
             "title":"Cluster 2",
             "description":"T-Mobile US insiders, including the President of Marketing and the Senior VP of Finance & Chief Accounting Officer, sold US$7.1 million in shares over the past year, raising concerns among investors. Despite this, the company shows high insider ownership (0.7%), suggesting aligned interests with shareholders.",
             "date":"Dec. 26, 2022 at 5:52 am"
-        },
-        {
-            "title":"Cluster 3",
-            "description":"T-Mobile US insiders, including the President of Marketing and the Senior VP of Finance & Chief Accounting Officer, sold US$7.1 million in shares over the past year, raising concerns among investors. Despite this, the company shows high insider ownership (0.7%), suggesting aligned interests with shareholders.",
-            "date":"Dec. 26, 2022 at 5:52 am"
         }
     ]
   return (

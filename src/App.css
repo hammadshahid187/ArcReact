@@ -1,5 +1,6 @@
 body {
 	background-color: #EAEDF7;
+	padding-bottom: 50px;
 }
 
 * {
@@ -406,7 +407,6 @@ body {
 	font-size: 12px;
 	font-weight: 600;
 }
-
 .card-heading img {
 	width: 28px;
 	height: 28px;
@@ -803,7 +803,14 @@ body {
 
 }
 
+
 @media only screen and (max-width: 768px) {
+
+	.news-card{
+		width: 350px!important;
+		white-space: nowrap;
+		margin-right: 20px;
+	}
 	#main-body {
 		margin-top: 108px;
 	}
@@ -825,6 +832,19 @@ body {
 	.rightBox,
 	.centerBox {
 		width: 42.5pc !important
+	}
+
+	.card-detail h2,.card-detail p{
+		white-space: normal;
+	}
+
+	.card-detail p{
+		width: 320px;
+	}
+
+	.news-card-box{
+		display: flex;
+		overflow: auto;
 	}
 
 }

@@ -39,32 +39,34 @@ export const LeftBox = () => {
                     </div>
                 </div>
 
-                {cardDate.map((item)=>(
-                <div class="news-card mt-4">
-                    <div class="row card-heading">
-                        <div class="col-9 d-flex pe-0">
-                            <div class="cart-img">
-                                <img src={item.img} alt=""/>
+                <div className='news-card-box'>
+                    {cardDate.map((item)=>(
+                    <div class="news-card mt-4">
+                        <div class="row card-heading">
+                            <div class="col-9 d-flex pe-0">
+                                <div class="cart-img">
+                                    <img src={item.img} alt=""/>
+                                </div>
+                                <div class="my-auto ms-2">
+                                    <h5 class="mb-0">{item.name}</h5>
+                                </div>
+                                <div class="ms-2">
+                                    <span>{item.date}</span>
+                                </div>
                             </div>
-                            <div class="my-auto ms-2">
-                                <h5 class="mb-0">{item.name}</h5>
-                            </div>
-                            <div class="ms-2">
-                                <span>{item.date}</span>
+                            <div class="col-3 text-end ps-0">
+                                <span>{item.time}hr ago</span>
                             </div>
                         </div>
-                        <div class="col-3 text-end ps-0">
-                            <span>{item.time}hr ago</span>
+                        <div class="card-detail">
+                            <h2 class="mt-3">{item.title}</h2>
+                            <span class="">{item.tagLine}</span>
+                            <p class="mt-2">{item.description}</p>
                         </div>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Read more</button>
                     </div>
-                    <div class="card-detail">
-                        <h2 class="mt-3">{item.title}</h2>
-                        <span class="">{item.tagLine}</span>
-                        <p class="mt-2">{item.description}</p>
-                    </div>
-                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Read more</button>
+                    ))}
                 </div>
-                ))}
                     
                 </div>
 

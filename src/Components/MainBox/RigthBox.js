@@ -322,6 +322,40 @@ export const RigthBox = () => {
                         <span className="text-gray">P:</span><span className="ms-2">0.4%</span>
                     </div>
                 </div>
+                <div className="signalbox-bar d-flex">
+                    <div>
+                        <div className="bar all-center mb-1 smallest-font">
+                            <span>02:30</span>
+                        </div>
+                        <div className="d-flex smallest-font">
+                            <div className="circle all-center me-2"><div className="dot"></div></div>
+                            <i className="fa-solid fa-signal text-primary"></i>
+                        </div>
+                    </div>
+                    <div className="ms-3 medium-text">
+                        <span>CPI Tokyo Excl Food & Ennergy M/M*</span>
+                    </div>
+                    <div className="ms-auto mt-auto smallest-font">
+                        <span className="text-gray">P:</span><span className="ms-2">0.4%</span>
+                    </div>
+                </div>
+                <div className="signalbox-bar d-flex">
+                    <div>
+                        <div className="bar all-center mb-1 smallest-font">
+                            <span>02:30</span>
+                        </div>
+                        <div className="d-flex smallest-font">
+                            <div className="circle all-center me-2"><div className="dot"></div></div>
+                            <i className="fa-solid fa-signal text-primary"></i>
+                        </div>
+                    </div>
+                    <div className="ms-3 medium-text">
+                        <span>CPI Tokyo Excl Food & Ennergy M/M*</span>
+                    </div>
+                    <div className="ms-auto mt-auto smallest-font">
+                        <span className="text-gray">P:</span><span className="ms-2">0.4%</span>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

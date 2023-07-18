@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import logo from '../../img/lightLogo.svg'
-import logoTwo from '../../img/lightLogo.svg'
+import logo from '../../img/logo.svg'
+import logoTwo from '../../img/logo.svg'
 import userImg from '../../img/user.svg'
 import "./Header.css"
 

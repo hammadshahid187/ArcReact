@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/ArcReact/static/css/main.2d200004.css",
-    "main.js": "/ArcReact/static/js/main.84a2fc61.js",
+    "main.js": "/ArcReact/static/js/main.398cb6f3.js",
     "static/js/787.e8f4b209.chunk.js": "/ArcReact/static/js/787.e8f4b209.chunk.js",
     "static/media/star.svg": "/ArcReact/static/media/star.b9f98035997d2b8f77609ab0d766bd70.svg",
+    "static/media/logo.svg": "/ArcReact/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "static/media/lightLogo.svg": "/ArcReact/static/media/lightLogo.f5fa88f992a52927b77d5a87d4c730a2.svg",
     "static/media/tmus.svg": "/ArcReact/static/media/tmus.c072c592cf08b7cc1605283754c4923a.svg",
     "static/media/date.svg": "/ArcReact/static/media/date.42d7ba819c9c3858b1c50853c6dc40c6.svg",
@@ -15,7 +16,6 @@
     "static/media/sub.svg": "/ArcReact/static/media/sub.bab9a38a689100c7dc55beb59523d00d.svg",
     "static/media/Smiling.svg": "/ArcReact/static/media/Smiling.60a8d398d281cd00ffc3b0c1ed3bf80b.svg",
     "static/media/a.svg": "/ArcReact/static/media/a.a7403fd163ab71271e8f4b734ed14cc8.svg",
-    "static/media/logo.svg": "/ArcReact/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/ArcReact/index.html",
     "static/media/Event.svg": "/ArcReact/static/media/Event.02f93c1084c58080b4038b223aff7180.svg",
     "static/media/modes.svg": "/ArcReact/static/media/modes.bd76a47ccf82c3f1618f460117a30abd.svg",
@@ -24,11 +24,11 @@
     "static/media/menubtn.svg": "/ArcReact/static/media/menubtn.88c7dc56a36f946c0013eddd5d3a07f7.svg",
     "static/media/user.svg": "/ArcReact/static/media/user.c5a4d74388dcedcb77e41da16a0257ee.svg",
     "main.2d200004.css.map": "/ArcReact/static/css/main.2d200004.css.map",
-    "main.84a2fc61.js.map": "/ArcReact/static/js/main.84a2fc61.js.map",
+    "main.398cb6f3.js.map": "/ArcReact/static/js/main.398cb6f3.js.map",
     "787.e8f4b209.chunk.js.map": "/ArcReact/static/js/787.e8f4b209.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2d200004.css",
-    "static/js/main.84a2fc61.js"
+    "static/js/main.398cb6f3.js"
   ]
 }
